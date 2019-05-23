@@ -1,12 +1,7 @@
-// work on diff regions
-
-
-// const fs = require('fs'); //uncomment this if .env is not used (or example if bot is hosted on mac)
-//const config = JSON.parse(fs.readFileSync("./config.json", "utf8")); // uncomment if .env is not used
-//const leagueapikey = config.leagueapi; // uncomment if .env is not used
 const request = require('request');
 const Discord = require('discord.js');
-const leagueapikey = process.env.LEAGUE_API;
+const config = JSON.parse(fs.readFileSync("./config.json", "utf8"));
+const leagueapikey = config.keys.League;
 
 const REGIONS = ['na1', 'euw1', 'eun1', 'br', 'la1', 'la2', 'od1', 'ru', 'tr1', 'jp1', 'kr'];
 
