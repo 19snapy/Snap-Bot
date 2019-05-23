@@ -14,16 +14,16 @@ module.exports =
 		var statsurl = `http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730&key=${apikey}&steamid=${steamid}`;
 		var profileurl = `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=${apikey}&steamids=${steamid}`;
 
-	request({
+		request({
 		url: profileurl,
 		json: true
-	}, function (error, response, profilebody)
-	{
+		}, function (error, response, profilebody)
+		{
 		if (!error && response.statusCode === 200)
 		{
 			request({
-    	url: statsurl,
-    	json: true
+    			url: statsurl,
+    			json: true
 			}, function (error, response, body) 
 			{
 				if (typeof body.playerstats === 'undefined' || typeof args[1] === 'undefined') msg.channel.send("The persons profile is either private, or a proper steamID was not entered.");
