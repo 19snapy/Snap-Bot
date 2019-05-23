@@ -4,6 +4,13 @@ This project is ongoing and newer commands will be created from time to time.
 Some of the code may look funny with odd-looking indentation after I uploaded the files for some reason.
 
 # For those who are planning to use this code
+Install the latest version of node.js at: https://nodejs.org/en/  
+Set-up the project by creating a directory, then locating it in command prompt (terminal for mac users) and type these in respectively:  ```
+npm init
+npm install discord.js
+```
+If i left something out please let me know.  
+
 Make sure you made a discord application and set it to a bot.
 Also make sure you have apikeys for both league of legends and steam.  
   
