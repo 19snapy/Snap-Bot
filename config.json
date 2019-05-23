@@ -1,0 +1,9 @@
+{
+	"prefix": "/",
+	"keys": 
+	{
+		"DiscordToken": "Put your discord bot's token here",
+    "League": "Put your league api key here.",
+    "Steam": "Put your steam api key here."
+  }
+}
