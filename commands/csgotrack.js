@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const request = require('request');
+const config = JSON.parse(fs.readFileSync("./config.json", "utf8")); // config json
 
-const apikey = process.env.STEAM_API;
+const apikey = config.keys.Steam;
 
 module.exports = 
 {
