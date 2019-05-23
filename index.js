@@ -1,6 +1,5 @@
-const Discord = require('discord.js'); 				// api for nodejs discord
-const fs = require('fs');											// allows for reading files
-const keep_alive = require('./keep_alive.js')	// allows hosting of bot through web server
+const Discord = require('discord.js'); 				     // api for nodejs discord
+const fs = require('fs');					     // allows for reading files
 const config = JSON.parse(fs.readFileSync("./config.json", "utf8")); // config json access
 
 const client = new Discord.Client();
