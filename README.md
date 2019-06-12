@@ -13,7 +13,7 @@ If i left something out please let me know.
 Make sure you made a discord application and set it to a bot.
 Also make sure you have apikeys for both league of legends and steam.  
   
-If you are not planning to use the league of legends command or the CSGO command, just simply delete the two js files or whatever one you dont want.
+If you are not planning to use the league of legends command or the CSGO command, just simply delete the two js files or which ever one you dont want.
 
 URL to creating discord application: https://discordapp.com/developers/applications/  
 URL to creating League API key: https://developer.riotgames.com/  
