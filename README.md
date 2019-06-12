@@ -17,6 +17,6 @@ If you are not planning to use the league of legends command or the CSGO command
 
 URL to creating discord application: https://discordapp.com/developers/applications/  
 URL to creating League API key: https://developer.riotgames.com/  
-URL to creaitng Steam API key: https://steamcommunity.com/dev/apikey  
+URL to creating Steam API key: https://steamcommunity.com/dev/apikey  
 
 After obtaining the discord token and the api keys, make sure you take all three keys and put them in the config.json files where its marked. Afterwards, the program should be usable by running the index.js file.
