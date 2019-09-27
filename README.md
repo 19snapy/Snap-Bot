@@ -8,8 +8,6 @@ Install the latest version of node.js at: https://nodejs.org/en/
 Set-up the project by creating a directory, then locating it in command prompt (terminal for mac users) and type these in respectively:
 `npm init` and `npm install discord.js`  
 
-If i left something out please let me know.  
-
 Make sure you made a discord application and set it to a bot.
 Also make sure you have apikeys for both league of legends and steam.  
   
