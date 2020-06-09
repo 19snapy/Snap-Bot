@@ -7,7 +7,7 @@ const token = config.keys.DiscordToken;
 
 client.commands = new Discord.Collection();		// array of commands found in the commands folder
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js')); // finds all command files
-const prefix = config.prefix; // temporary, eventually add a prefix change option
+const prefix = config.prefix;
 
 for (const file of commandFiles) // loop that adds every command in the commands folder into the client.commands collection
 {
