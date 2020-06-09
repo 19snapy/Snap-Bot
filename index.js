@@ -15,13 +15,15 @@ for (const file of commandFiles) // loop that adds every command in the commands
 	client.commands.set(command.name, command);
 }
 
-client.on('ready', () =>	// when bot is ready it does the stuff here
+// when bot is ready, runs function
+client.on('ready', () =>
 {
   console.log("I'm on");
   console.log(client.user.username);
 });
 
-client.on('message', msg => // when there is a message sent, the stuff in here happens
+// when there is a message sent, runs function
+client.on('message', msg =>
 {
     if (msg.author.id === client.user.id) return; // doesnt message if the user msging is the bot
 
